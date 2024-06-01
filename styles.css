@@ -1,0 +1,170 @@
+
+/* body, h1, h2, p, div, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.button-container {
+    display: flex;
+    gap: 10px; 
+}
+
+
+.styled-button {
+    background-color: #007BFF; */
+    /* color: #fff; /* Text color */
+    /* padding: 10px 20px;
+    font-size: 16px;
+    border: none; 
+    border-radius: 25px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.styled-button:hover {
+    background-color: #0056b3; 
+    transform: translateY(-2px); 
+}
+
+.styled-button:active {
+    background-color: #004494; 
+    transform: translateY(0); 
+} */ */
+
+/* .styled-button:focus {
+    outline: none; /* Remove default focus outline */
+    /* box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5); Custom focus outline */
+/* }  */
+*/
+/* Optional additional styles for different button types */
+/* .styled-button.primary {
+    background-color: #007BFF;
+}
+
+.styled-button.secondary {
+    background-color: #6c757d;
+}
+
+.styled-button.success {
+    background-color: #28a745;
+}
+
+.styled-button.danger {
+    background-color: #dc3545;
+}
+
+.styled-button.warning {
+    background-color: #ffc107;
+}
+
+.styled-button.info {
+    background-color: #17a2b8;
+}
+
+.styled-button.light {
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+.styled-button.dark {
+    background-color: #343a40;
+} */
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.task {
+    margin-bottom: 20px;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.result span {
+    font-size: 24px;
+    color: #007BFF;
+}
+.wor{
+    color: rgb(120, 169, 224);
+}
+.lop{
+   text-align: center;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

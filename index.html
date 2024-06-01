@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Score Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Game Score Calculator</h1>
+        <img class="lop" src="c:\Users\dell\OneDrive\Documents\LEGO Education SPIKE\mindraf.png" width="100" height="100">
+        <form id="scoreForm">
+            <div class="task">
+                <h2>Rebuild Houses</h2>
+                <label>
+                    Select house red:
+                    <select id="houseType1">
+                        <option value="0">None</option>
+                        <option value="3">One floor (3 points)</option>
+                        <option value="6">Two floors (6 points)</option>
+                        <option value="10">Three floors (10 points)</option>
+                        <option value="14">Four floors (14 points)</option>
+                    </select>
+                </label>
+                <label>
+                    Additional points for house with exactly 4 floors and matching color:
+                    <select id="additionalPoints1">
+                        <option value="0">no</option>
+                        <option value="8">yes</option>
+                    </select>
+                </label>
+                <label>
+                    Select house blue:
+                    <select id="houseType2">
+                        <option value="0">None</option>
+                        <option value="3">One floor (3 points)</option>
+                        <option value="6">Two floors (6 points)</option>
+                        <option value="10">Three floors (10 points)</option>
+                        <option value="14">Four floors (14 points)</option>
+                    </select>
+                </label>
+                <label>
+                    Additional points for house with exactly 4 floors and matching color:
+                    <select id="additionalPoints2">
+                        <option value="0">no</option>
+                        <option value="8">yes</option>
+                    </select>
+                </label>
+                <label>
+                    Select house yellow:
+                    <select id="houseType3">
+                        <option value="0">None</option>
+                        <option value="3">One floor (3 points)</option>
+                        <option value="6">Two floors (6 points)</option>
+                        <option value="10">Three floors (10 points)</option>
+                        <option value="14">Four floors (14 points)</option>
+                    </select>
+                </label>
+                <label>
+                    Additional points for house with exactly 4 floors and matching color:
+                    <select id="additionalPoints3">
+                        <option value="0">no</option>
+                        <option value="8">yes</option>
+                    </select>
+                </label>
+                <label>
+                    Select house green:
+                    <select id="houseType4">
+                        <option value="0">None</option>
+                        <option value="3">One floor (3 points)</option>
+                        <option value="6">Two floors (6 points)</option>
+                        <option value="10">Three floors (10 points)</option>
+                        <option value="14">Four floors (14 points)</option>
+                    </select>
+                </label>
+                <label>
+                    Additional points for house with exactly 4 floors and matching color:
+                    <select id="additionalPoints4">
+                        <option value="0">no</option>
+                        <option value="8">yes</option>
+                    </select>
+                </label>
+            </div>
+            <div class="task">
+                <h2>Clear Debris</h2>
+                <label>
+                    Debris small not touching the coloured area and not touching the collection area:
+                    <select id="clearDebris">
+                        <option value="0">no</option>
+                        <option value="5">yes</option>
+                    </select>
+                </label>
+                <label>
+                    Debris small is touching the coloured area and not touching the collection area:
+                    <select id="clearDebris2">
+                        <option value="0">no</option>
+                        <option value="5">yes</option>
+                    </select>
+                </label>
+                <label>
+                    big Debris  not touching the coloured area and not touching the collection area:
+                    <select id="clearDebris3">
+                        <option value="0">no</option>
+                        <option value="5">yes</option>
+                    </select>
+                </label>
+                <label>
+                    big Debris is touching the coloured area and not touching the collection area:
+                    <select id="clearDebris4">
+                        <option value="0">no</option>
+                        <option value="5">yes</option>
+                    </select>
+                </label>
+            </div>
+            <div class="task">
+                <h2>Water Pipes</h2>
+                <label>
+                    the first Water pipe repaired:
+                    <select id="waterPipes">
+                        <option value="0">no</option>
+                        <option value="8">yes</option>
+                    </select>
+                </label>
+                <label>
+                    the second Water pipe repaired:
+                    <select id="waterPipes2">
+                        <option value="0">no</option>
+                        <option value="8">yes</option>
+                    </select>
+                </label>
+            </div>
+            <div class="task">
+                <h2>Bonus for Barriers</h2>
+                <label>
+                    first Barrier not moved or damaged:
+                    <select id="barriers">
+                        <option value="0">no</option>
+                        <option value="7">yes</option>
+                    </select>
+                </label>
+                <label>
+                    second Barrier not moved or damaged:
+                    <select id="barriers2">
+                        <option value="0">no</option>
+                        <option value="7">yes</option>
+                    </select>
+                </label>
+                <label>
+                    third Barrier not moved or damaged:
+                    <select id="barriers3">
+                        <option value="0">no</option>
+                        <option value="7">yes</option>
+                    </select>
+                </label>
+            </div>
+            <button type="button" onclick="calculateScore()">Calculate Score</button>
+        </form>
+        <div class="result">
+            <h2>Maximum Score: 145</h2>
+            <h2>Total Score: <span id="totalScore">0</span></h2>
+            <h2 class="wor">MADE BY WALID BEN SLIMANE </h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- <div class="button-container">
+        <button class="styled-button">Click Me</button>
+        <button class="styled-button">Submit</button>
+    </div> -->
